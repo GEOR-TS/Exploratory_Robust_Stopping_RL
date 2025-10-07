@@ -293,6 +293,7 @@ class Policy_Iteration:
             ######################## Store results
             self.pi_history['losses'].append(losses[-1])
             self.pi_history['y0_values'].append(y0_values[-1])
+            print('Y0 :', y0_values[-1])
 
         ############### Compute total time
         print_time = time.time() - start_time
@@ -305,6 +306,7 @@ class Policy_Iteration:
             model_name = f"model_eps_{self.epsilon}_lamda_{self.lambda_temp}_penalty_{self.K}"
             torch.save(self.policy_evaluation_NN_solver.state_dict(), os.path.join(model_dir, f"{model_name}.pt"))
             print(f"Model saved to {os.path.join(model_dir, f'{model_name}.pt')}")
+
 
 
 
