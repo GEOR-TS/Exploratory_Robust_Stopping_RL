@@ -283,6 +283,7 @@ class Policy_Iteration:
             ######################## Store results
             self.pi_history['losses'].append(losses[-1])
             self.pi_history['y0_values'].append(y0_values[-1])
+            print('Y0 :', y0_values[-1])
 
         ############### Compute total time
         print_time = time.time() - start_time
