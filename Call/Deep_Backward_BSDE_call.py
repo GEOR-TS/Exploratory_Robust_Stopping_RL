@@ -199,14 +199,13 @@ if __name__ == "__main__":
     total_time = 0.5
     n_time_steps = 100
     K = 10.0
-    r = 0.03
+    r = 0.05
     dividend = 0.05
     sigma = 0.4
     strike = 40.0
     x_0 = 40.0
     lambda_temp = 1
     epsilon = 0.4 ## can adjust to different ambiguity degree
-    test_size = 2
 
     # Use double precision
     torch.set_default_dtype(torch.float64)
@@ -261,6 +260,7 @@ if __name__ == "__main__":
 
     plt.savefig(f"Backward_BSDE_call_eps_{epsilon}_lambda_{lambda_temp}_penalty_{K}.png")
     plt.show()
+
 
 
 
