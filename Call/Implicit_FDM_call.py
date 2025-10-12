@@ -30,7 +30,7 @@ class AmericanCallSolver:
         self.u = np.zeros((Nt + 1, Ny))
 
     def payoff(self, y):
-        S = np.exp(y) ##### we have used log-price (log spatial transformation) to simplify the equation
+        S = np.exp(y) ##### we have used log-price to simplify the equation
         return np.maximum(S - self.K, 0)
 
     def set_boundary(self, t_idx):
