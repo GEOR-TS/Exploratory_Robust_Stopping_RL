@@ -24,11 +24,11 @@ This repository contains source code for the paper "[Robust Exploratory Stopping
   - pandas
   - matplotlib
   - tqdm
-  - jupyter (optional, for notebooks)
+  - jupyter
 
 ## Quick install
 - pip install torch numpy scipy pandas matplotlib tqdm
-- Optional for notebooks: pip install jupyter
+- pip install jupyter
 
 ## License
 - This project is licensed under the MIT License.
