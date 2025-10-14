@@ -1,6 +1,6 @@
 ## Exploratory_Robust_Stopping_RL
 
-This repository contains source code for the paper "[Robust Exploratory Stopping under Ambiguity in Reinforcement Learning](https://arxiv.org/)" by _Junyan Ye, Hoi Ying Wong and Kyunghyun Park_.
+This repository contains source code for the paper "[Robust Exploratory Stopping under Ambiguity in Reinforcement Learning](http://arxiv.org/abs/2510.10260)" by _Junyan Ye, Hoi Ying Wong and Kyunghyun Park_.
 
 ## Basic structure
 - Call/
