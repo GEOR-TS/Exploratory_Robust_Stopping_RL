@@ -9,11 +9,12 @@ This repository contains source code for the paper "[Robust Exploratory Stopping
   - Implicit_FDM_call.py — **Implicit Finite Difference Method for option price** (Call)
   - PI_NN_load_call.py — **Utilities for loading saved PI models** (Call)
   - PolicyIteration_Convergence_call.ipynb — **Notebook for PI algorithm Implementation and Convergence Evaluation** (Call)
-  - PolicyIteration_Robustness_call.ipynb — **Notebook for Robustness Evaluation under Dividend Rate Misspecification** (Call)
+  - PolicyIteration_Robustness_call.ipynb — **Notebook for Robustness Evaluation under Dividend Rate Misspecification** (Call), including high-dimensional geometric call training and evaluation
+  - call_benchmarks.py — **Setup for robustness benchmark results method (Implicit FDM)** (Call)
 - Put/
   - PolicyIteration_put.py — **Algorithm class for Policy Iteration with DL-based Policy Evaluation** (Put)
   - Deep_Backward_BSDE_put.py — **Deep Backward BSDE for Reference Values** (Put)
-  - PolicyIteration_Convergence_put.ipynb — **Notebook for PI algorithm Implementation and Convergence Evaluation** (Put)
+  - PolicyIteration_Convergence_put.ipynb — **Notebook for PI algorithm Implementation and Convergence Evaluation** (Put), including high-dimensional basket put training and evaluation
 
 ## Minimal requirements
 - Python 3.8+ (3.13 recommended)
